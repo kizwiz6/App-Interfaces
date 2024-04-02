@@ -9,5 +9,6 @@ namespace App_Interfaces
     interface IDisplayable
     {
         void Display();
+        char HeaderSymbol { get; }
     }
 }
